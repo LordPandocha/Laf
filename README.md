@@ -16,7 +16,7 @@
 1. Открой этот репозиторий: https://github.com/LordPandocha/Laf
 2. Зайди в **Settings → Pages**.
 3. В **Build and deployment** выбери **Deploy from a branch**.
-4. Выбери ветку `main` и папку `/ (root)), затем нажми **Save**.
+4. Выбери ветку `main` и папку `/ (root)`, затем нажми **Save**.
 5. После завершения публикации GitHub покажет публичный адрес сайта в разделе **Pages**.
 
 ## Подключение своего домена
