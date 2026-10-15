@@ -248,6 +248,15 @@ h1 em{color:#a85f73}
 @media(max-width:430px){.announcement{gap:6px}.announcement>a{max-width:95px;overflow:hidden;text-overflow:ellipsis}.brand{gap:9px}.brand__text strong{font-size:11px}.brand__text small{font-size:9px}.hero__actions{align-items:flex-start;flex-direction:column;gap:12px}.hero__visual{min-height:350px}.hero-photo{min-height:320px;height:365px;width:79%}.round-stamp{width:68px;height:68px;font-size:7px}.round-stamp b{font-size:12px}.value-card{padding:23px}.category-row{grid-template-columns:27px 1fr 18px;gap:11px}.category-row strong{font-size:15px}.contact-hero{display:block}.contact-hero__stamp{display:none}.contact-grid-section{grid-template-columns:1fr}.contact-card{min-height:188px}.contact-card__icon{margin-bottom:16px}.about-next__actions{flex-direction:column}.founder-note{gap:13px}.founder-note__symbol{font-size:55px}.founder-note__quote{font-size:25px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
+@media(max-width:760px){
+  .nav{max-height:calc(100dvh - 110px);overflow-y:auto;overscroll-behavior:contain}
+  .announcement{flex-wrap:wrap;gap:4px 8px;font-size:10px}
+  .announcement a{font-size:10px}
+}
+@media(max-width:430px){
+  .announcement>a{max-width:none;overflow:visible;text-overflow:clip}
+}
+
 /* Personal Instagram feature — warm rose editorial visual */
 .instagram-feature{display:grid;grid-template-columns:.85fr 1fr;gap:clamp(42px,9vw,125px);align-items:center}
 .instagram-feature__visual{position:relative;max-width:420px;padding:0 30px 30px 0}
