@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- После подтверждения домена скопируйте этот шаблон в sitemap.xml и замените YOUR_DOMAIN на домен сайта. -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR_DOMAIN/</loc></url>
-  <url><loc>https://YOUR_DOMAIN/about.html</loc></url>
-  <url><loc>https://YOUR_DOMAIN/expertise.html</loc></url>
-  <url><loc>https://YOUR_DOMAIN/contacts.html</loc></url>
-</urlset>
