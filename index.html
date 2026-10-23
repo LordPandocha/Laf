@@ -3,58 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090a0b">
-  <title>ONELAF — материалы для мастеров маникюра</title>
-  <meta name="description" content="ONELAF — профессиональные материалы для маникюра. Базы, топы, моделирующие гели и средства для каждого этапа работы мастера.">
-  <meta property="og:type" content="website"><meta property="og:title" content="ONELAF — материалы для мастеров маникюра"><meta property="og:description" content="Материал имеет значение. Знакомьтесь с продуктами ONELAF."><meta property="og:image" content="assets/onelaf-base-soft.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600&display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="assets/vendor/gsap.min.js" defer></script><script src="script.js" defer></script><script src="experience.js" defer></script>
+  <meta name="theme-color" content="#f6efe1">
+  <meta name="description" content="Пироговая в Новом Уренгое: сытные и сладкие пироги, выпечка к празднику и на каждый день. Посмотрите работы и меню, закажите в ВК.">
+  <title>Пироговая — пироги, ради которых собираются вместе</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
-<body class="home-page">
+<body data-page="home">
   <a class="skip-link" href="#main">К содержимому</a>
-  <div class="announcement"><span class="announcement__dot" aria-hidden="true"></span><span>Профессиональные материалы для маникюра</span><a href="https://onelaf.ru/" target="_blank" rel="noopener noreferrer">Официальный магазин ↗</a></div>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="ONELAF — главная"><span class="brand__mark">ONE<span>LAF</span></span><span class="brand__text"><strong>ONELAF</strong><small>Материалы для мастеров</small></span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Открыть меню"><span></span><span></span></button>
-    <nav class="nav" id="primary-nav" aria-label="Основная навигация"><a class="nav__link is-active" href="index.html" aria-current="page">Главная</a><a class="nav__link" href="#products">Материалы</a><a class="nav__link" href="expertise.html">Подход</a><a class="nav__link" href="about.html">О бренде</a><a class="nav__link" href="contact.html">Контакты</a></nav>
-    <a class="button button--small button--dark header-cta" href="https://onelaf.ru/" target="_blank" rel="noopener noreferrer">В магазин ↗</a>
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Пироговая — главная"><span class="brand-mark" aria-hidden="true">✳</span><span>Пирогова<span class="brand-accent">Я</span></span></a>
+      <nav class="nav" id="main-nav" aria-label="Главная навигация">
+        <a class="is-current" href="index.html" aria-current="page">Главная</a><a href="menu.html">Меню</a><a href="about.html">О нас</a><a href="contacts.html">Контакты</a>
+      </nav>
+      <a class="header-order" href="https://vk.ru/pirogi_nur" target="_blank" rel="noopener noreferrer">Написать в ВК <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
+    </div>
   </header>
   <main id="main">
-    <section class="showcase-hero" aria-labelledby="hero-title">
-      <div class="showcase-hero__copy">
-        <div class="showcase-hero__topline"><span>ONELAF / PROFESSIONAL NAIL MATERIALS</span><span>01 — 04</span></div>
-        <div class="showcase-hero__main"><p class="eyebrow"><span class="eyebrow__line"></span> Для тех, кто знает цену детали</p><h1 id="hero-title">Материал<br><em>имеет</em><br>значение.</h1><p>Базы, топы и гели ONELAF для работы, в которой важен каждый этап — от подготовки до финального покрытия.</p><div class="hero__actions"><a class="button button--chrome" href="#products">Смотреть материалы ↓</a><a class="text-link" href="https://onelaf.ru/" target="_blank" rel="noopener noreferrer">В официальный магазин ↗</a></div></div>
-        <div class="showcase-hero__bottom"><span>ФОРМА / ФУНКЦИЯ / ФИНИШ</span><span>Прокрутите вниз ↓</span></div>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> Новый Уренгой · выпечка на заказ</div>
+        <h1>Пироги,<br>которые <em>собирают</em><br>всех вместе.</h1>
+        <p class="hero-lead">На семейный ужин, праздник или тот самый вторник, когда просто хочется вкусного. Печём сытные и сладкие пироги, а повод найдётся.</p>
+        <div class="hero-actions"><a class="button button-dark" href="menu.html">Выбрать пирог <span aria-hidden="true">↗</span></a><a class="text-link" href="about.html">Посмотреть наши работы <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-proof"><span class="proof-stars" aria-label="Пять звёзд">★★★★★</span><span>5,0 на Яндекс Картах <small>по 65 оценкам на момент проверки</small></span></div>
       </div>
-      <div class="showcase-hero__image"><img src="assets/onelaf-base-soft.jpg" alt="ONELAF Base Soft в чёрно-белой предметной съёмке" width="1440" height="1920" fetchpriority="high"><span class="showcase-hero__image-tag">BASE SOFT ↗</span></div>
+      <div class="hero-visual">
+        <div class="hero-photo-wrap"><img src="assets/photo-05.jpg" width="960" height="1280" alt="Румяные пироги из фотогалереи Пироговой" fetchpriority="high"></div>
+        <span class="hero-sticker">Сделано<br>с начинкой<br><b>и душой!</b></span>
+        <span class="hero-photo-caption">Вкусно видно сразу. Фото из галереи пироговой.</span>
+      </div>
+      <div class="hero-side-note" aria-hidden="true">Печём повод собраться вместе</div>
     </section>
-    <section class="ticker" aria-label="Категории материалов"><div>BASES <span>✳</span> TOPS <span>✳</span> GELS <span>✳</span> DETAILS <span>✳</span> ONELAF</div></section>
-    <section class="material-index section-wrap section-space" id="products" aria-labelledby="materials-title">
-      <div><p class="eyebrow"><span class="eyebrow__line"></span> Материалы ONELAF</p><h2 id="materials-title">Базы. Гели.<br><em>Финиш.</em></h2></div>
-      <nav class="material-index__nav" aria-label="Направления материалов"><a href="#bases"><span>01</span> Базы <b aria-hidden="true">↘</b></a><a href="#gels"><span>02</span> Гели <b aria-hidden="true">↘</b></a><a href="#finish"><span>03</span> Финиш <b aria-hidden="true">↘</b></a></nav>
+    <section class="ticker" aria-label="Что у нас есть"><div class="ticker-track"><span>СЫТНЫЕ ПИРОГИ ✳ СЛАДКИЕ ПИРОГИ ✳ ПИРОЖКИ ✳ ВЫПЕЧКА К ПРАЗДНИКУ ✳</span><span aria-hidden="true">СЫТНЫЕ ПИРОГИ ✳ СЛАДКИЕ ПИРОГИ ✳ ПИРОЖКИ ✳ ВЫПЕЧКА К ПРАЗДНИКУ ✳</span></div></section>
+    <section class="section shell" id="favorites">
+      <div class="section-heading"><div><p class="kicker">01 / Начните с этого</p><h2>Есть из чего<br><em>выбрать.</em></h2></div><p>От большого пирога на компанию до маленького «мне, пожалуйста, два». Вот несколько позиций из опубликованного меню.</p></div>
+      <div class="featured-grid">
+        <article class="feature-card feature-card-large"><div class="feature-image"><img src="assets/photo-07.jpg" width="1280" height="960" alt="Пирог с решёткой из теста, работа Пироговой" loading="lazy"></div><div class="feature-info"><span class="pill">Для большой компании</span><div><h3>Яблоко &amp; брусника</h3><p>Сладкий пирог с приятной ягодной кислинкой.</p></div><span class="price">1 750 ₽*</span></div></article>
+        <article class="feature-card"><div class="feature-image"><img src="assets/photo-03.jpg" width="960" height="1280" alt="Витрина со свежей выпечкой Пироговой" loading="lazy"></div><div class="feature-info"><span class="pill">Сытный выбор</span><div><h3>Курник</h3><p>Курица, картофель и лук под румяной корочкой.</p></div><span class="price">2 000 ₽*</span></div></article>
+        <article class="feature-card"><div class="feature-image"><img src="assets/photo-06.jpg" width="960" height="1280" alt="Ягодный пирог из галереи Пироговой" loading="lazy"></div><div class="feature-info"><span class="pill">К чаю</span><div><h3>Вишнёвый</h3><p>Вишня в сметанном соусе и песочное тесто.</p></div><span class="price">1 950 ₽*</span></div></article>
+      </div>
+      <div class="section-bottom"><p class="note">*Цены взяты из меню на Яндекс Картах. Уточняйте актуальную стоимость при заказе. Фотографии показывают работы пекарни и могут отличаться от конкретной позиции.</p><a class="round-link" href="menu.html">Всё меню <span aria-hidden="true">↗</span></a></div>
     </section>
-    <section class="material-scene material-scene--base" id="bases" aria-labelledby="bases-title">
-      <div class="material-scene__inner section-wrap"><div class="material-scene__copy"><span class="material-scene__number">01 / ОСНОВА</span><h2 id="bases-title">Базы<span class="period">.</span></h2><p>Основа определяет, как дальше ляжет покрытие. Base Soft — мягкая база средней консистенции для профессиональной работы.</p><div class="material-scene__actions"><button class="button button--chrome experience-trigger" type="button" data-product="base">Открыть Base Soft <span aria-hidden="true">↗</span></button><a class="text-link" href="https://onelaf.ru/p/base-soft/" target="_blank" rel="noopener noreferrer">Описание в магазине ↗</a></div></div><div class="material-scene__visual"><img src="assets/onelaf-base-soft.jpg" alt="Мягкая база ONELAF Base Soft" width="1440" height="1920" loading="lazy"><span>BASE SOFT / ONELAF</span></div></div>
-    </section>
-    <section class="material-scene material-scene--gel" id="gels" aria-labelledby="gels-title">
-      <div class="material-scene__inner section-wrap"><div class="material-scene__copy"><span class="material-scene__number">02 / МОДЕЛИРОВАНИЕ</span><h2 id="gels-title">Гели<span class="period">.</span></h2><p>Гели помогают выстроить архитектуру ногтя и выбрать нужный оттенок. В центре этой сцены — Gel Express Touch.</p><div class="material-scene__actions"><button class="button button--dark experience-trigger" type="button" data-product="gel">Открыть Gel Express Touch <span aria-hidden="true">↗</span></button><a class="text-link text-link--dark" href="https://onelaf.ru/p/gel-express/" target="_blank" rel="noopener noreferrer">Гели в магазине ↗</a></div></div><div class="material-scene__visual"><img src="assets/onelaf-gel-express-touch.jpg" alt="Моделирующий гель ONELAF Gel Express Touch" width="1254" height="1254" loading="lazy"><span>GEL EXPRESS TOUCH / ONELAF</span></div></div>
-    </section>
-    <section class="material-scene material-scene--finish" id="finish" aria-labelledby="finish-title">
-      <div class="material-scene__inner section-wrap"><div class="material-scene__copy"><span class="material-scene__number">03 / ЗАВЕРШЕНИЕ</span><h2 id="finish-title">Финиш<span class="period">.</span></h2><p>Финиш определяет, как будет выглядеть готовая работа. Top Mirror — зеркальный топ ONELAF для завершающего слоя.</p><div class="material-scene__actions"><button class="button button--dark experience-trigger" type="button" data-product="top">Открыть Top Mirror <span aria-hidden="true">↗</span></button><a class="text-link text-link--dark" href="https://onelaf.ru/p/top-mirror/" target="_blank" rel="noopener noreferrer">Топ в магазине ↗</a></div></div><div class="material-scene__visual"><img src="assets/onelaf-top-mirror-editorial.jpg" alt="Редакционная съёмка топа ONELAF Top Mirror" width="1080" height="1350" loading="lazy"><span>TOP MIRROR / ONELAF</span></div></div>
-    </section>
-    <section class="editorial section-wrap section-space" aria-labelledby="editorial-title"><div class="editorial__visual"><img src="assets/ludmila-beauty-day-2026.jpg" alt="Людмила Филатова на материале ONELAF о Beauty Day" loading="lazy" width="1254" height="1254"><span>BEHIND THE BRAND / ONELAF</span></div><div class="editorial__copy"><p class="eyebrow"><span class="eyebrow__line"></span> За продуктом</p><h2 id="editorial-title">У бренда<br>есть <em>имя.</em></h2><p>ONELAF основала Людмила Филатова. На странице о бренде — её взгляд на материалы и работу с мастерами.</p><a class="button button--outline-dark" href="about.html">О Людмиле ↗</a></div></section>
-    <section class="closing-cta"><div class="section-wrap closing-cta__inner"><div><p class="eyebrow eyebrow--muted">Следующий шаг</p><h2>Найдите свой<br><em>материал.</em></h2></div><div class="closing-cta__actions"><a class="button button--chrome" href="https://onelaf.ru/" target="_blank" rel="noopener noreferrer">Открыть каталог ↗</a><a class="button button--outline-light" href="contact.html">Связаться ↗</a></div><span class="closing-cta__decor" aria-hidden="true">ONELAF</span></div></section>
+    <section class="occasion"><div class="shell occasion-grid"><div class="occasion-photo"><img src="assets/photo-01.jpg" width="960" height="1280" alt="Пирог и цветы — работа из галереи Пироговой" loading="lazy"><span>Повод не обязателен.</span></div><div class="occasion-copy"><p class="kicker">02 / На ваш случай</p><h2>Сегодня просто чай.<br>Завтра — <em>праздник.</em></h2><p>В меню есть пироги к домашнему столу, мини-киши, пирожки и свадебный каравай. Расскажите, что планируете, и уточните детали заказа напрямую у пекарни.</p><a class="button button-light" href="https://vk.ru/pirogi_nur" target="_blank" rel="noopener noreferrer">Обсудить заказ в ВК <span aria-hidden="true">↗</span></a><div class="scribble" aria-hidden="true">⇢</div></div></div></section>
+    <section class="section shell gallery-section"><div class="section-heading"><div><p class="kicker">03 / Без фильтров и обещаний</p><h2>Вот что<br><em>выходит из печи.</em></h2></div><p>Настоящие кадры из фотогалереи Пироговой на Яндекс Картах. Каждый заказ может выглядеть по-своему — в этом и вкус ручной работы.</p></div><div class="gallery-strip"><img src="assets/photo-04.jpg" width="1280" height="960" alt="Ягодный пирог с решёткой из теста" loading="lazy"><img src="assets/photo-08.jpg" width="1280" height="960" alt="Пирог в разрезе на синей тарелке" loading="lazy"><img src="assets/photo-02.jpg" width="1280" height="960" alt="Праздничная выпечка Пироговой" loading="lazy"></div><a class="round-link" href="about.html">Ещё о Пироговой <span aria-hidden="true">↗</span></a></section>
+    <section class="contact-band"><div class="shell contact-band-inner"><div><p class="kicker">Пироги уже почти рядом</p><h2>Осталось только<br><em>написать.</em></h2></div><div><p>Пироговая · Новый Уренгой<br>Интернациональная, 2</p><a class="button button-dark" href="https://vk.ru/pirogi_nur" target="_blank" rel="noopener noreferrer">Написать в ВК <span aria-hidden="true">↗</span></a></div></div></section>
   </main>
-  <div class="product-experience" id="product-experience" role="dialog" aria-modal="true" aria-labelledby="experience-title" hidden>
-    <div class="experience__surface" aria-hidden="true"></div>
-    <button class="experience__close" type="button" aria-label="Закрыть описание товара">Закрыть <span aria-hidden="true">×</span></button>
-    <div class="experience__grid">
-      <div class="experience__object"><img id="experience-image" src="assets/onelaf-base-soft.jpg" alt="" width="1440" height="1920"></div>
-      <div class="experience__story"><span class="experience__eyebrow" id="experience-category">01 / БАЗЫ</span><div class="experience__flight" aria-hidden="true"><svg class="experience__plane" viewBox="0 0 90 70" focusable="false"><path d="M4 35 84 4 53 65 41 42 4 35Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M41 42 84 4 27 46" fill="none" stroke="currentColor" stroke-width="2"/></svg><span class="experience__ribbon"></span></div><h2 id="experience-title">Base Soft</h2><p id="experience-description">Мягкая база средней консистенции.</p><a class="button button--chrome" id="experience-link" href="https://onelaf.ru/p/base-soft/" target="_blank" rel="noopener noreferrer">Описание в магазине ↗</a></div>
-    </div>
-    <span class="experience__folio" aria-hidden="true">ONELAF / PRODUCT STORY</span>
-  </div>
-  <footer class="site-footer"><a class="brand brand--footer" href="index.html"><span class="brand__mark">ONE<span>LAF</span></span><span class="brand__text"><strong>ONELAF</strong><small>Материалы для мастеров</small></span></a><p>Профессиональные материалы для маникюра.</p><div class="footer-links"><a href="https://www.instagram.com/onelaf.ru/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://onelaf.ru/" target="_blank" rel="noopener noreferrer">ONELAF.ru ↗</a><a href="https://t.me/onelafru" target="_blank" rel="noopener noreferrer">Telegram ↗</a></div><small class="copyright">© <span data-year></span> ONELAF</small></footer>
+  <footer class="site-footer"><div class="shell footer-inner"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">✳</span><span>Пирогова<span class="brand-accent">Я</span></span></a><p>Пироги для повода. И без него.</p><div><a href="menu.html">Меню</a><a href="contacts.html">Контакты</a><a href="https://yandex.com/maps/org/pirogovaya/86559750538/" target="_blank" rel="noopener noreferrer">Яндекс Карты ↗</a></div></div></footer>
+  <div class="page-wipe" aria-hidden="true"></div>
 </body>
 </html>
