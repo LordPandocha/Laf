@@ -61,7 +61,7 @@
     closeMenu();
     sessionStorage.setItem('pie-transition', '1');
     wipe.classList.add('is-exiting');
-    window.setTimeout(() => { window.location.href = target.href; }, 350);
+    window.setTimeout(() => { window.location.href = target.href; }, 420);
   }));
 
   if (!reducedMotion.matches && wipe && sessionStorage.getItem('pie-transition') === '1') {
